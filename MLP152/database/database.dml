@@ -1,0 +1,31 @@
+-- change the database to your team id
+use MLP152;
+
+
+INSERT INTO VENDOR VALUES
+(1001,' EVERBAKE','everbake','everbake@123','04426544949','everbake01@gmail.com','Hexaraunt'),
+(1002,'ANNAPORNA','bala','bala@123','04449546363','bala02@gmail.com','Hexadine'),
+(1003,'GREEN LEAF','peter','peter@123','04443543576','peter03@gmail.com','Hexadine'),
+
+INSERT INTO EMPLOYEE VALUES
+(47501,'SUSMITHA','susmitha','susmitha@123',1000,'susmitha@hexaware.com','Serisuri',9500608055),
+(47454,'BHAGYASHREE','bhagyashree','bhagyashree@123',1000,'bhagya@hexaware.com','Navallur',9167571533),
+(47453,'PRIYANKUR','priyankur','priyankur@123',1000,'priyankur@hexaware.com','Sowcarpet',9677137402),
+(47471,'ARCHANA','archana','archana@123',1000,'archana@hexaware.com','Tambaram',9840623710);
+
+insert into MENU values
+(101,'SAMOSA',10,1005),
+(102,'PAVI BHAJI',20,1005),
+(103,'CHOLE BHATURE',35,1005),
+(104,'BHEL PURI',20,1005),
+(105,'PANI PURI',25,1005),
+( 201,'DOSA',35,1001),
+(202,'IDLI',35,1001),
+(203,'CURD RICE',35,1001),
+(204,'MEALS',50,1001),
+(205,'VEG BIRYANI',40,1001),
+(301,'CHICKEN BIRYANI',60,1002),
+(302,'MUTTON BIRYANI',80,1002),
+(303,'CHICKEN 65',50,1002),
+(304,'MUTTON TIKKA',60,1002),
+(305,'PRAWN MASALA',70,1002),
